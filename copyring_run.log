@@ -1,0 +1,135 @@
+Loading candidates...
+Loaded 6 candidates
+
+Evaluating candidates...
+Evaluation complete.
+
+
+Ranked applicants
+
+#0001 C4 Candidate C4 | Fast-Track | total=85.67 | tech=87.33 answers=67.0 github=100.0 profile=100.0 | penalties=0.0 | flags=none
+#0002 C6 Candidate C6 | Fast-Track | total=82.97 | tech=87.35 answers=58.0 github=100.0 profile=100.0 | penalties=0.0 | flags=none
+#0003 C5 Candidate C5 | Standard | total=78.16 | tech=74.44 answers=57.0 github=100.0 profile=100.0 | penalties=0.0 | flags=none
+#0004 C1 Candidate C1 | Review | total=60.4 | tech=80.0 answers=59.0 github=78.5 profile=100.0 | penalties=16.0 | flags=copy_ring,manual_review
+#0005 C2 Candidate C2 | Review | total=60.4 | tech=80.0 answers=59.0 github=78.5 profile=100.0 | penalties=16.0 | flags=copy_ring,manual_review
+#0006 C3 Candidate C3 | Review | total=60.4 | tech=80.0 answers=59.0 github=78.5 profile=100.0 | penalties=16.0 | flags=copy_ring,manual_review
+
+
+Cohort summary
+
+{
+  "count": 6,
+  "tier_counts": {
+    "Fast-Track": 2,
+    "Standard": 1,
+    "Review": 3
+  },
+  "average_score": 71.33,
+  "flag_counts": {
+    "copy_ring": 3,
+    "manual_review": 3
+  },
+  "average_technical": 81.52,
+  "average_answers": 59.83,
+  "average_github": 89.25
+}
+✅ Exported JSON: copyring_ground_truth_output.json
+
+
+JSON summary
+
+[
+  {
+    "candidate_id": "C4",
+    "name": "Candidate C4",
+    "technical_skills": {
+      "python": 5,
+      "ml": 4,
+      "communication": 4
+    },
+    "answers": 67.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "response_seconds": 480,
+    "total": 85.67,
+    "tier": "Fast-Track",
+    "technical": 87.33,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": [],
+    "rank": 1
+  },
+  {
+    "candidate_id": "C6",
+    "name": "Candidate C6",
+    "technical_skills": {
+      "java": 4,
+      "sql": 5,
+      "communication": 4
+    },
+    "answers": 58.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "response_seconds": 560,
+    "total": 82.97,
+    "tier": "Fast-Track",
+    "technical": 87.35,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": [],
+    "rank": 2
+  },
+  {
+    "candidate_id": "C5",
+    "name": "Candidate C5",
+    "technical_skills": {
+      "go": 4,
+      "system_design": 4,
+      "communication": 3
+    },
+    "answers": 57.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "response_seconds": 530,
+    "total": 78.16,
+    "tier": "Standard",
+    "technical": 74.44,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": [],
+    "rank": 3
+  },
+  {
+    "candidate_id": "C1",
+    "name": "Candidate C1",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "answers": 59.0,
+    "github": 78.5,
+    "profile": 100.0,
+    "response_seconds": 400,
+    "total": 60.4,
+    "tier": "Review",
+    "technical": 80.0,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 16.0,
+    "timing_penalty": 0.0,
+    "flags": [
+      "copy_ring",
+      "manual_review"
+    ],
+    "reasons": [
+      

@@ -1,0 +1,152 @@
+[
+  {
+    "rank": 1,
+    "candidate_id": "C4",
+    "name": "Candidate C4",
+    "technical_skills": {
+      "python": 5,
+      "ml": 4,
+      "communication": 4
+    },
+    "technical": 87.33,
+    "answers": 67.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 85.67,
+    "tier": "Fast-Track",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": []
+  },
+  {
+    "rank": 2,
+    "candidate_id": "C6",
+    "name": "Candidate C6",
+    "technical_skills": {
+      "java": 4,
+      "sql": 5,
+      "communication": 4
+    },
+    "technical": 87.35,
+    "answers": 58.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 82.97,
+    "tier": "Fast-Track",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": []
+  },
+  {
+    "rank": 3,
+    "candidate_id": "C5",
+    "name": "Candidate C5",
+    "technical_skills": {
+      "go": 4,
+      "system_design": 4,
+      "communication": 3
+    },
+    "technical": 74.44,
+    "answers": 57.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 78.16,
+    "tier": "Standard",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": []
+  },
+  {
+    "rank": 4,
+    "candidate_id": "C1",
+    "name": "Candidate C1",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "technical": 80.0,
+    "answers": 59.0,
+    "github": 78.5,
+    "profile": 100.0,
+    "total": 60.4,
+    "tier": "Review",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 16.0,
+    "timing_penalty": 0.0,
+    "flags": [
+      "copy_ring",
+      "manual_review"
+    ],
+    "reasons": [
+      "copy_ring with 2 others",
+      "Score is below the review threshold"
+    ]
+  },
+  {
+    "rank": 5,
+    "candidate_id": "C2",
+    "name": "Candidate C2",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "technical": 80.0,
+    "answers": 59.0,
+    "github": 78.5,
+    "profile": 100.0,
+    "total": 60.4,
+    "tier": "Review",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 16.0,
+    "timing_penalty": 0.0,
+    "flags": [
+      "copy_ring",
+      "manual_review"
+    ],
+    "reasons": [
+      "copy_ring with 2 others",
+      "Score is below the review threshold"
+    ]
+  },
+  {
+    "rank": 6,
+    "candidate_id": "C3",
+    "name": "Candidate C3",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "technical": 80.0,
+    "answers": 59.0,
+    "github": 78.5,
+    "profile": 100.0,
+    "total": 60.4,
+    "tier": "Review",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 16.0,
+    "timing_penalty": 0.0,
+    "flags": [
+      "copy_ring",
+      "manual_review"
+    ],
+    "reasons": [
+      "copy_ring with 2 others",
+      "Score is below the review threshold"
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "rank": 1,
+    "candidate_id": "R1",
+    "name": "Aarav Mehta",
+    "technical_skills": {
+      "python": 5,
+      "sql": 5,
+      "system_design": 4,
+      "ml": 4,
+      "communication": 4
+    },
+    "technical": 88.16,
+    "answers": 90.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 92.86,
+    "tier": "Fast-Track",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": []
+  },
+  {
+    "rank": 2,
+    "candidate_id": "R2",
+    "name": "Neha Rao",
+    "technical_skills": {
+      "python": 4,
+      "javascript": 4,
+      "sql": 4,
+      "communication": 5
+    },
+    "technical": 84.11,
+    "answers": 85.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 89.94,
+    "tier": "Fast-Track",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": []
+  },
+  {
+    "rank": 3,
+    "candidate_id": "R5",
+    "name": "Fast Submit",
+    "technical_skills": {
+      "python": 4,
+      "sql": 3,
+      "communication": 4
+    },
+    "technical": 73.45,
+    "answers": 80.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 72.71,
+    "tier": "Standard",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 12.0,
+    "flags": [
+      "fast_completion"
+    ],
+    "reasons": [
+      "Submission timing is unusually fast"
+    ]
+  },
+  {
+    "rank": 4,
+    "candidate_id": "R3",
+    "name": "Vikas Sharma",
+    "technical_skills": {
+      "python": 3,
+      "sql": 3,
+      "communication": 4
+    },
+    "technical": 65.45,
+    "answers": 51.0,
+    "github": 77.83,
+    "profile": 100.0,
+    "total": 68.78,
+    "tier": "Standard",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": []
+  },
+  {
+    "rank": 5,
+    "candidate_id": "R6",
+    "name": "AI Marker",
+    "technical_skills": {
+      "python": 4,
+      "ml": 3,
+      "communication": 4
+    },
+    "technical": 72.33,
+    "answers": 38.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "total": 59.72,
+    "tier": "Review",
+    "originality_penalty": 12.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [
+      "ai_like_text",
+      "manual_review"
+    ],
+    "reasons": [
+      "AI-like language markers or low lexical variety",
+      "Score is below the review threshold"
+    ]
+  },
+  {
+    "rank": 6,
+    "candidate_id": "R4",
+    "name": "Blank Answers",
+    "technical_skills": {
+      "python": 3,
+      "sql": 2
+    },
+    "technical": 51.0,
+    "answers": 0.0,
+    "github": 18.83,
+    "profile": 82.0,
+    "total": 15.92,
+    "tier": "Reject",
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 18.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [
+      "empty_profile",
+      "manual_review"
+    ],
+    "reasons": [
+      "Profile is missing core fields",
+      "Score is below the review threshold"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "candidate_id": "E1",
+    "name": "Broken Github Field",
+    "technical_skills": {
+      "python": 4
+    },
+    "answers": [
+      "I improved reliability by adding tests."
+    ],
+    "github": {
+      "repos": "https://github.com/user",
+      "contributions": 10,
+      "stars": 2,
+      "forks": 1
+    },
+    "profile": {
+      "email": "broken@example.com",
+      "linkedin": "https://linkedin.com/in/broken",
+      "portfolio": "https://broken.dev"
+    },
+    "response_seconds": 240
+  }
+]

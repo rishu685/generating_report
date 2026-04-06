@@ -1,0 +1,7 @@
+rank,candidate_id,name,tier,technical,answers,github,profile,total,originality_penalty,empty_profile_penalty,similarity_penalty,timing_penalty,flags,reasons
+1,R1,Aarav Mehta,Fast-Track,88.16,90.0,100.0,100.0,92.86,0.0,0.0,0.0,0.0,[],[]
+2,R2,Neha Rao,Fast-Track,84.11,85.0,100.0,100.0,89.94,0.0,0.0,0.0,0.0,[],[]
+3,R5,Fast Submit,Standard,73.45,80.0,100.0,100.0,72.71,0.0,0.0,0.0,12.0,['fast_completion'],['Submission timing is unusually fast']
+4,R3,Vikas Sharma,Standard,65.45,51.0,77.83,100.0,68.78,0.0,0.0,0.0,0.0,[],[]
+5,R6,AI Marker,Review,72.33,38.0,100.0,100.0,59.72,12.0,0.0,0.0,0.0,"['ai_like_text', 'manual_review']","['AI-like language markers or low lexical variety', 'Score is below the review threshold']"
+6,R4,Blank Answers,Reject,51.0,0.0,18.83,82.0,15.92,0.0,18.0,0.0,0.0,"['empty_profile', 'manual_review']","['Profile is missing core fields', 'Score is below the review threshold']"

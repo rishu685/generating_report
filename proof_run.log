@@ -1,0 +1,139 @@
+Loading candidates...
+Loaded 6 candidates
+
+Evaluating candidates...
+Evaluation complete.
+
+
+Ranked applicants
+
+#0001 R1 Aarav Mehta | Fast-Track | total=92.86 | tech=88.16 answers=90.0 github=100.0 profile=100.0 | penalties=0.0 | flags=none
+#0002 R2 Neha Rao | Fast-Track | total=89.94 | tech=84.11 answers=85.0 github=100.0 profile=100.0 | penalties=0.0 | flags=none
+#0003 R5 Fast Submit | Standard | total=72.71 | tech=73.45 answers=80.0 github=100.0 profile=100.0 | penalties=12.0 | flags=fast_completion
+#0004 R3 Vikas Sharma | Standard | total=68.78 | tech=65.45 answers=51.0 github=77.83333333333333 profile=100.0 | penalties=0.0 | flags=none
+#0005 R6 AI Marker | Review | total=59.72 | tech=72.33 answers=38.0 github=100.0 profile=100.0 | penalties=12.0 | flags=ai_like_text,manual_review
+#0006 R4 Blank Answers | Reject | total=15.92 | tech=51.0 answers=0.0 github=18.833333333333332 profile=82.0 | penalties=18.0 | flags=empty_profile,manual_review
+
+
+Cohort summary
+
+{
+  "count": 6,
+  "tier_counts": {
+    "Fast-Track": 2,
+    "Standard": 2,
+    "Review": 1,
+    "Reject": 1
+  },
+  "average_score": 66.66,
+  "flag_counts": {
+    "fast_completion": 1,
+    "ai_like_text": 1,
+    "manual_review": 2,
+    "empty_profile": 1
+  },
+  "average_technical": 72.42,
+  "average_answers": 57.33,
+  "average_github": 82.78
+}
+✅ Exported JSON: proof_output_realistic.json
+✅ Exported CSV: proof_output_realistic.csv
+
+
+JSON summary
+
+[
+  {
+    "candidate_id": "R1",
+    "name": "Aarav Mehta",
+    "technical_skills": {
+      "python": 5,
+      "sql": 5,
+      "system_design": 4,
+      "ml": 4,
+      "communication": 4
+    },
+    "answers": 90.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "response_seconds": 640,
+    "total": 92.86,
+    "tier": "Fast-Track",
+    "technical": 88.16,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": [],
+    "rank": 1
+  },
+  {
+    "candidate_id": "R2",
+    "name": "Neha Rao",
+    "technical_skills": {
+      "python": 4,
+      "javascript": 4,
+      "sql": 4,
+      "communication": 5
+    },
+    "answers": 85.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "response_seconds": 420,
+    "total": 89.94,
+    "tier": "Fast-Track",
+    "technical": 84.11,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 0.0,
+    "flags": [],
+    "reasons": [],
+    "rank": 2
+  },
+  {
+    "candidate_id": "R5",
+    "name": "Fast Submit",
+    "technical_skills": {
+      "python": 4,
+      "sql": 3,
+      "communication": 4
+    },
+    "answers": 80.0,
+    "github": 100.0,
+    "profile": 100.0,
+    "response_seconds": 120,
+    "total": 72.71,
+    "tier": "Standard",
+    "technical": 73.45,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "similarity_penalty": 0.0,
+    "timing_penalty": 12.0,
+    "flags": [
+      "fast_completion"
+    ],
+    "reasons": [
+      "Submission timing is unusually fast"
+    ],
+    "rank": 3
+  },
+  {
+    "candidate_id": "R3",
+    "name": "Vikas Sharma",
+    "technical_skills": {
+      "python": 3,
+      "sql": 3,
+      "communication": 4
+    },
+    "answers": 51.0,
+    "github": 77.83,
+    "profile": 100.0,
+    "response_seconds": 510,
+    "total": 68.78,
+    "tier": "Standard",
+    "technical": 65.45,
+    "originality_penalty": 0.0,
+    "empty_profile_penalty": 0.0,
+    "s

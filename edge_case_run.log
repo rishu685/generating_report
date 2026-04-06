@@ -1,0 +1,26 @@
+Loading candidates...
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 479, in candidate_from_mapping
+    github = {k: int(v) for k, v in github.items()}
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 479, in <dictcomp>
+    github = {k: int(v) for k, v in github.items()}
+ValueError: invalid literal for int() with base 10: 'https://github.com/user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 833, in <module>
+    main()
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 773, in main
+    candidates = load_input_candidates(args)
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 762, in load_input_candidates
+    return load_candidates(args.input)
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 526, in load_candidates
+    return load_candidates_from_json(filepath)
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 508, in load_candidates_from_json
+    return [candidate_from_mapping(item) for item in data]
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 508, in <listcomp>
+    return [candidate_from_mapping(item) for item in data]
+  File "/Users/apple/Desktop/untitled folder 2/app.py", line 500, in candidate_from_mapping
+    raise ValueError(f"Failed to parse candidate: {e}")
+ValueError: Failed to parse candidate: invalid literal for int() with base 10: 'https://github.com/user'

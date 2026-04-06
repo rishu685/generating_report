@@ -1,0 +1,170 @@
+[
+  {
+    "candidate_id": "C1",
+    "name": "Candidate C1",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "answers": [
+      "I improved API reliability by adding retries, circuit breakers, and clear SLO monitoring with weekly incident review.",
+      "The reason this helped is because we reduced cascading failures and made deployment risk visible to the team."
+    ],
+    "github": {
+      "repos": 6,
+      "contributions": 120,
+      "stars": 6,
+      "forks": 3
+    },
+    "profile": {
+      "email": "c1@example.com",
+      "linkedin": "https://linkedin.com/in/c1",
+      "portfolio": "https://c1.dev",
+      "experience": "2 years",
+      "education": "B.Tech",
+      "phone": "9000000000"
+    },
+    "response_seconds": 400
+  },
+  {
+    "candidate_id": "C2",
+    "name": "Candidate C2",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "answers": [
+      "I improved API reliability by adding retries, circuit breakers, and clear SLO monitoring with weekly incident review.",
+      "The reason this helped is because we reduced cascading failures and made deployment risk visible to the team."
+    ],
+    "github": {
+      "repos": 6,
+      "contributions": 120,
+      "stars": 6,
+      "forks": 3
+    },
+    "profile": {
+      "email": "c2@example.com",
+      "linkedin": "https://linkedin.com/in/c2",
+      "portfolio": "https://c2.dev",
+      "experience": "2 years",
+      "education": "B.Tech",
+      "phone": "9000000000"
+    },
+    "response_seconds": 400
+  },
+  {
+    "candidate_id": "C3",
+    "name": "Candidate C3",
+    "technical_skills": {
+      "python": 4,
+      "sql": 4,
+      "communication": 4
+    },
+    "answers": [
+      "I improved API reliability by adding retries, circuit breakers, and clear SLO monitoring with weekly incident review.",
+      "The reason this helped is because we reduced cascading failures and made deployment risk visible to the team."
+    ],
+    "github": {
+      "repos": 6,
+      "contributions": 120,
+      "stars": 6,
+      "forks": 3
+    },
+    "profile": {
+      "email": "c3@example.com",
+      "linkedin": "https://linkedin.com/in/c3",
+      "portfolio": "https://c3.dev",
+      "experience": "2 years",
+      "education": "B.Tech",
+      "phone": "9000000000"
+    },
+    "response_seconds": 400
+  },
+  {
+    "candidate_id": "C4",
+    "name": "Candidate C4",
+    "technical_skills": {
+      "python": 5,
+      "ml": 4,
+      "communication": 4
+    },
+    "answers": [
+      "I built a churn model with calibrated probabilities and ran A/B targeting that improved retention by 6.4%.",
+      "Because model drift was likely, I added monthly retraining triggers and feature monitoring."
+    ],
+    "github": {
+      "repos": 10,
+      "contributions": 500,
+      "stars": 30,
+      "forks": 10
+    },
+    "profile": {
+      "email": "c4@example.com",
+      "linkedin": "https://linkedin.com/in/c4",
+      "portfolio": "https://c4.dev",
+      "experience": "4 years",
+      "education": "M.Tech",
+      "phone": "9000000004"
+    },
+    "response_seconds": 480
+  },
+  {
+    "candidate_id": "C5",
+    "name": "Candidate C5",
+    "technical_skills": {
+      "go": 4,
+      "system_design": 4,
+      "communication": 3
+    },
+    "answers": [
+      "I migrated a monolith checkout path to event-driven services, cutting rollback frequency and reducing timeout spikes.",
+      "Therefore we introduced idempotency keys and partitioned queues to isolate noisy tenants."
+    ],
+    "github": {
+      "repos": 7,
+      "contributions": 290,
+      "stars": 14,
+      "forks": 7
+    },
+    "profile": {
+      "email": "c5@example.com",
+      "linkedin": "https://linkedin.com/in/c5",
+      "portfolio": "https://c5.dev",
+      "experience": "3 years",
+      "education": "B.E",
+      "phone": "9000000005"
+    },
+    "response_seconds": 530
+  },
+  {
+    "candidate_id": "C6",
+    "name": "Candidate C6",
+    "technical_skills": {
+      "java": 4,
+      "sql": 5,
+      "communication": 4
+    },
+    "answers": [
+      "I tuned warehouse queries by rewriting joins and indexing fact tables, lowering report refresh from 18 minutes to 4.",
+      "For instance, we validated query plans weekly and documented ownership so regressions were caught early."
+    ],
+    "github": {
+      "repos": 9,
+      "contributions": 410,
+      "stars": 22,
+      "forks": 11
+    },
+    "profile": {
+      "email": "c6@example.com",
+      "linkedin": "https://linkedin.com/in/c6",
+      "portfolio": "https://c6.dev",
+      "experience": "5 years",
+      "education": "MCA",
+      "phone": "9000000006"
+    },
+    "response_seconds": 560
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "candidate_id": "R1",
+    "name": "Aarav Mehta",
+    "technical_skills": {
+      "python": 5,
+      "sql": 5,
+      "system_design": 4,
+      "ml": 4,
+      "communication": 4
+    },
+    "answers": [
+      "In my previous role I redesigned a data ingestion service and reduced end-to-end latency by 38% across 14 pipelines. For example, I replaced row-wise transforms with vectorized batch processing, specifically adding schema contracts and retry isolation. The reason this worked is because our bottleneck was CPU serialization rather than I/O, therefore the architecture change unlocked headroom without extra infrastructure.",
+      "When I evaluate trade-offs, I write down why an option is safer at scale, because failure domains matter more than local optimization. In one instance we compared Redis caching with materialized views and used 3-month incident data plus p95 latency targets to choose a hybrid approach."
+    ],
+    "github": {
+      "repos": 18,
+      "contributions": 980,
+      "stars": 120,
+      "forks": 40
+    },
+    "profile": {
+      "email": "aarav@example.com",
+      "linkedin": "https://linkedin.com/in/aarav",
+      "portfolio": "https://aarav.dev",
+      "experience": "5 years backend",
+      "education": "B.Tech CS",
+      "phone": "+91-9999999991"
+    },
+    "response_seconds": 640
+  },
+  {
+    "candidate_id": "R2",
+    "name": "Neha Rao",
+    "technical_skills": {
+      "python": 4,
+      "javascript": 4,
+      "sql": 4,
+      "communication": 5
+    },
+    "answers": [
+      "I led a support automation project where we mapped ticket categories to runbooks and cut average resolution time by 22%. Specifically, we tracked error classes weekly and used examples from recurring incidents.",
+      "The reason I prefer iterative delivery is because stakeholders can validate progress early and we reduce rework."
+    ],
+    "github": {
+      "repos": 9,
+      "contributions": 360,
+      "stars": 18,
+      "forks": 9
+    },
+    "profile": {
+      "linkedin": "https://linkedin.com/in/neharao",
+      "portfolio": "https://neharao.dev",
+      "experience": "3 years full stack",
+      "education": "BSc IT",
+      "phone": "+91-9999999992"
+    },
+    "response_seconds": 420
+  },
+  {
+    "candidate_id": "R3",
+    "name": "Vikas Sharma",
+    "technical_skills": {
+      "python": 3,
+      "sql": 3,
+      "communication": 4
+    },
+    "answers": [
+      "मैंने अपने पिछले प्रोजेक्ट में डेटा पाइपलाइन को बेहतर किया और प्रोसेसिंग समय 30 प्रतिशत कम किया। उदाहरण के लिए, हमने बैच साइज़ बदला और लॉगिंग को संरचित किया।",
+      "मैं यह तरीका इसलिए चुनता हूँ क्योंकि इससे टीम को स्पष्ट कारण, कम त्रुटि और बेहतर मॉनिटरिंग मिलती है।"
+    ],
+    "github": {
+      "repos": 6,
+      "contributions": 140,
+      "stars": 4,
+      "forks": 3
+    },
+    "profile": {
+      "email": "vikas@example.com",
+      "linkedin": "https://linkedin.com/in/vikassharma",
+      "experience": "2 years data ops",
+      "education": "MCA"
+    },
+    "response_seconds": 510
+  },
+  {
+    "candidate_id": "R4",
+    "name": "Blank Answers",
+    "technical_skills": {
+      "python": 3,
+      "sql": 2
+    },
+    "answers": [
+      "",
+      "   "
+    ],
+    "github": {
+      "repos": 2,
+      "contributions": 20,
+      "stars": 0,
+      "forks": 1
+    },
+    "profile": {
+      "email": "blank@example.com",
+      "linkedin": "https://linkedin.com/in/blank",
+      "portfolio": "",
+      "experience": "",
+      "education": "",
+      "phone": ""
+    },
+    "response_seconds": 350
+  },
+  {
+    "candidate_id": "R5",
+    "name": "Fast Submit",
+    "technical_skills": {
+      "python": 4,
+      "sql": 3,
+      "communication": 4
+    },
+    "answers": [
+      "I built ETL checks that prevented bad records from entering analytics tables. For example, null-threshold alarms reduced data quality incidents by 19%.",
+      "The reason this mattered is because analysts trusted dashboards and product decisions became faster."
+    ],
+    "github": {
+      "repos": 7,
+      "contributions": 260,
+      "stars": 11,
+      "forks": 4
+    },
+    "profile": {
+      "email": "fast@example.com",
+      "linkedin": "https://linkedin.com/in/fast",
+      "portfolio": "https://fast.dev",
+      "experience": "2 years",
+      "education": "BCA",
+      "phone": "+91-9999999995"
+    },
+    "response_seconds": 120
+  },
+  {
+    "candidate_id": "R6",
+    "name": "AI Marker",
+    "technical_skills": {
+      "python": 4,
+      "ml": 3,
+      "communication": 4
+    },
+    "answers": [
+      "As an AI language model, here is a concise response: you should optimize architecture, define KPIs, and iterate quickly.",
+      "Here are the steps: gather requirements, implement baseline, evaluate metrics, and report improvements."
+    ],
+    "github": {
+      "repos": 8,
+      "contributions": 210,
+      "stars": 7,
+      "forks": 2
+    },
+    "profile": {
+      "email": "aimarker@example.com",
+      "linkedin": "https://linkedin.com/in/aimarker",
+      "portfolio": "https://aimarker.dev",
+      "experience": "2 years",
+      "education": "B.Tech",
+      "phone": "+91-9999999996"
+    },
+    "response_seconds": 300
+  }
+]
