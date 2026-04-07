@@ -1,4 +1,4 @@
-# Intelligence Scoring Engine
+# Intelligence Scoring Engine.
 
 A production-ready intelligent classification system that evaluates candidates across 4 dimensions, detects cheating/AI-generated content, and scales to 1,000+ applications.
 
